@@ -7,11 +7,11 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 
-public class WineglassBlock extends Block {
+public class RedWineglassBlock extends AbstractWineglassBlock {
     private static final VoxelShape SHAPE;
 
-    public WineglassBlock(Settings settings) {
-            super(settings);
+    public RedWineglassBlock(Settings settings) {
+        super(settings);
     }
 
     @Override

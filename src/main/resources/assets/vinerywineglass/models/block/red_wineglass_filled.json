@@ -3,8 +3,9 @@
 	"parent": "block/block",
 	"texture_size": [32, 32],
 	"textures": {
-		"particle": "vinerywineglass:block/wineglass",
-		"wineglass": "vinerywineglass:block/wineglass"
+		"particle": "vinerywineglass:block/red_wineglass",
+		"wineglass": "vinerywineglass:block/red_wineglass",
+		"wine": "vinery:block/red_grapejuice"
 	},
 	"elements": [
 		{
@@ -67,6 +68,18 @@
 			"faces": {
 				"east": {"uv": [0, 4, 3, 8], "texture": "#wineglass"},
 				"west": {"uv": [0, 8.5, 3, 12.5], "texture": "#wineglass"}
+			}
+		},
+		{
+			"from": [6.6, 4.1, 6.6],
+			"to": [9.4, 5.5, 9.4],
+			"faces": {
+				"north": {"uv": [0.2, 0, 5.8, 1.4], "texture": "#wine"},
+				"east": {"uv": [0.2, 0, 5.8, 1.4], "texture": "#wine"},
+				"south": {"uv": [0.2, 0, 5.8, 1.4], "texture": "#wine"},
+				"west": {"uv": [0.2, 0, 5.8, 1.4], "texture": "#wine"},
+				"up": {"uv": [0.2, 0.2, 5.8, 5.8], "texture": "#wine"},
+				"down": {"uv": [0.2, 0.2, 5.8, 5.8], "texture": "#wine"}
 			}
 		}
 	],

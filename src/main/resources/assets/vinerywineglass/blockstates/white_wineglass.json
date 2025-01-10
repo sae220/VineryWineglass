@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "filled=false": {
+      "model": "vinerywineglass:block/white_wineglass"
+    },
+    "filled=true": {
+      "model": "vinerywineglass:block/white_wineglass_filled"
+    }
+  }
+}

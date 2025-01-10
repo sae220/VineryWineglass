@@ -1,3 +1,4 @@
 {
-    "block.vinerywineglass.wineglass": "ワイングラス"
+    "block.vinerywineglass.red_wineglass": "赤ワイン用のグラス",
+    "block.vinerywineglass.white_wineglass": "白ワイン用のグラス"
 }
